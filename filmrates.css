@@ -1,0 +1,65 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.all_content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10%;
+    padding: 20px;
+    height: 100%;
+}
+#main_data{
+    border: 2px solid black;
+    height: 80%;
+}
+#main_data_footer{
+    height: 15%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_data_table{
+    height: 75%;
+    padding: 0 5% 0 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.main_data_table_column{
+    border: 1px solid black;
+}
+.main_data_table_column_names{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_data{
+    border: 2px solid black;
+    height: 80%;
+    padding: 0 10% 0 10%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto;
+}
+
+.input_data_content{
+    border: 1px solid black;
+    
+}
+#input_data_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input_data_content_date{
+    display: flex;
+    justify-content: space-between;
+}
+.main_data_table_column{
+    overflow: scroll;
+}

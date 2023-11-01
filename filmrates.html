@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="filmrates.css" />
+    </head>
+    <body>
+        <div class="all_content">
+            <div id="main_data">
+                <footer id="main_data_footer">Rating table</footer>
+                <div class="main_data_table">
+                    <div class="main_data_table_column" id="idColumn">
+                        <div class="main_data_table_column_names">ID</div> 
+                    </div>
+                    <div class="main_data_table_column" id="nameColumn">
+                        <div class="main_data_table_column_names">Name</div> 
+                    </div>
+                    <div class="main_data_table_column" id="ratingColumn">
+                        <div class="main_data_table_column_names">Rating</div> 
+                    </div>
+                    <div class="main_data_table_column" id="dateColumn">
+                        <div class="main_data_table_column_names">Date</div> 
+                    </div>
+                </div>
+            </div>
+            <div class="input_data">
+                <footer id="input_data_footer"> Enter your data</footer>
+                <input type="text" class="input_data_content" id="nameInput" placeholder="Input name">
+                <input type="number" class="input_data_content" id="ratingInput" placeholder="Input rating">
+                <div class="input_data_content" id="input_data_content_date"> 
+                    <label for="dataInput">Input date:</label>
+                    <input type="date" id="dateInput">
+                </div>
+                <button class="input_data_content" id="submitBtn""> submit</button>
+            </div>
+        </div>
+        <script src="filmrates.js"></script>
+    </body>
+</html>
